@@ -1,0 +1,67 @@
+body {
+	font-family: "Edu NSW ACT Foundation";
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	height: 40px;
+	width: 40px;
+}
+.postcard-header h1 {
+	width: 500px;
+	margin: none;
+	margin-top: 0px !important;
+}
+.postcard-body {
+	display: flex;
+}
+
+.primerparrafo {
+	margin-top: 0px !important;
+}
+
+.body-left,
+.body-right {
+	padding: 1%;
+}
+
+.p {
+	font-size: x-large;
+}
+.body-right input {
+	border: none;
+	border-bottom: solid grey;
+	font-family: "Edu NSW ACT Foundation";
+	font-size: medium;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	text-decoration: none;
+	font-family: "Edu NSW ACT Foundation";
+	font-size: large;
+	background-color: rgb(139, 138, 138);
+	padding: 1%;
+}
+button {
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: rgb(181, 181, 181);
+	color: rgb(0, 0, 0);
+}
